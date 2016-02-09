@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -g -W -O0 -Otime --apcs=interwork --split_sections -I.\device\inc -I.\init\inc -I.\user\inc -I.\it -I.\interface\inc -I.\misc\inc -I..\stm32f0_stdperiph_lib\STM32F0xx_StdPeriph_Lib_V1.5.0\Libraries\STM32F0xx_StdPeriph_Driver\inc -I..\stm32f0_stdperiph_lib\STM32F0xx_StdPeriph_Lib_V1.5.0\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I..\stm32f0_stdperiph_lib\STM32F0xx_StdPeriph_Lib_V1.5.0\Libraries\CMSIS\Include --cpp11
+-I E:\KeilProj\smart_relay1\RTE
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include
+-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_STDPERIPH_DRIVER -D__hd066__
+-o .\objects\stm32f0xx_misc.o --omf_browse .\objects\stm32f0xx_misc.crf --depend .\objects\stm32f0xx_misc.d "..\stm32f0_stdperiph_lib\STM32F0xx_StdPeriph_Lib_V1.5.0\Libraries\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_misc.c"
